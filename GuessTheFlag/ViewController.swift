@@ -29,6 +29,11 @@ class ViewController: UIViewController {
         btn_option2.layer.borderColor = UIColor.lightGray.cgColor
         btn_option3.layer.borderColor = UIColor.lightGray.cgColor
         
+        //adjust image border to remove margin
+        btn_option1.configuration?.contentInsets = NSDirectionalEdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0)
+        btn_option1.configuration?.contentInsets = NSDirectionalEdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0)
+        btn_option1.configuration?.contentInsets = NSDirectionalEdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0)
+        
         askQuestion()
     }
 
