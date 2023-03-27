@@ -16,34 +16,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zs7-Ze-sHm">
-                                <rect key="frame" x="95" y="100" width="224" height="114"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="us" title=""/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9BO-bs-hHe">
-                                <rect key="frame" x="95" y="222" width="224" height="114"/>
+                                <rect key="frame" x="95" y="230" width="224" height="114"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="us"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZKA-0K-Ceg">
-                                <rect key="frame" x="95" y="366" width="224" height="114"/>
+                                <rect key="frame" x="95" y="360" width="224" height="114"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="us"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zs7-Ze-sHm">
+                                <rect key="frame" x="95" y="100" width="224" height="114"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="us" title=""/>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="ZKA-0K-Ceg" firstAttribute="centerX" secondItem="9BO-bs-hHe" secondAttribute="centerX" id="8A5-th-bnz"/>
-                            <constraint firstItem="ZKA-0K-Ceg" firstAttribute="top" secondItem="9BO-bs-hHe" secondAttribute="bottom" constant="30" id="Atj-GW-3fu"/>
-                            <constraint firstItem="Zs7-Ze-sHm" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="EMb-RQ-VVT"/>
-                            <constraint firstItem="9BO-bs-hHe" firstAttribute="firstBaseline" secondItem="Zs7-Ze-sHm" secondAttribute="baseline" constant="22" symbolType="layoutAnchor" id="PBC-3w-c0P"/>
-                            <constraint firstItem="9BO-bs-hHe" firstAttribute="centerX" secondItem="Zs7-Ze-sHm" secondAttribute="centerX" id="bbA-Ou-K5S"/>
-                            <constraint firstItem="Zs7-Ze-sHm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="eTv-er-PvK"/>
-                            <constraint firstItem="9BO-bs-hHe" firstAttribute="top" secondItem="Zs7-Ze-sHm" secondAttribute="bottom" constant="30" id="fTz-IS-fLc"/>
-                            <constraint firstItem="9BO-bs-hHe" firstAttribute="top" secondItem="Zs7-Ze-sHm" secondAttribute="bottom" constant="8" symbolic="YES" id="ipe-OV-w2e"/>
-                            <constraint firstItem="9BO-bs-hHe" firstAttribute="top" secondItem="Zs7-Ze-sHm" secondAttribute="bottom" constant="8" symbolic="YES" id="mc1-NC-Eri"/>
+                            <constraint firstItem="Zs7-Ze-sHm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="D1y-Wi-Bue"/>
+                            <constraint firstItem="9BO-bs-hHe" firstAttribute="top" secondItem="Zs7-Ze-sHm" secondAttribute="bottom" constant="16" id="Ggu-oX-A4b"/>
+                            <constraint firstItem="9BO-bs-hHe" firstAttribute="centerX" secondItem="Zs7-Ze-sHm" secondAttribute="centerX" id="nGa-4V-M6d"/>
+                            <constraint firstItem="Zs7-Ze-sHm" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ppE-Ej-88D"/>
+                            <constraint firstItem="ZKA-0K-Ceg" firstAttribute="top" secondItem="9BO-bs-hHe" secondAttribute="bottom" constant="16" id="qo4-MZ-RZz"/>
+                            <constraint firstItem="ZKA-0K-Ceg" firstAttribute="centerX" secondItem="9BO-bs-hHe" secondAttribute="centerX" id="wpe-6c-CTk"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="cTg-fI-r21"/>
